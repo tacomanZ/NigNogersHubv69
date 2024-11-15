@@ -1,0 +1,183 @@
+local OrionLib = loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexware/Orion/main/source')))()
+local Window = OrionLib:MakeWindow({Name = "Slave Client", HidePremium = false, SaveConfig = true, ConfigFolder = "Slave Client"})
+OrionLib:MakeNotification({
+	Name = "lovesense detected trying to connected!",
+	Content = "connecting...",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+OrionLib:MakeNotification({
+	Name = "lovesense connected successfully.",
+	Content = "We have successfully connected your lovesense buttplug.",
+	Image = "rbxassetid://4483345998",
+	Time = 5
+})
+local Tab = Window:MakeTab({
+	Name = "Boykisser shit <3",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Gay???"
+})
+Tab:AddButton({
+	Name = "Infinite Yield FE",
+	Callback = function()
+      		loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Synapse X",
+	Callback = function()
+      		loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/Chillz-s-scripts/main/Synapse-X-Remake.lua"))()
+  	end    
+})
+Tab:AddButton({
+	Name = "Button!",
+	Callback = function()
+      		print("button pressed")
+  	end    
+})
+-- end of .BoyKisser shit <3.
+local Tab = Window:MakeTab({
+	Name = "Combat Surf",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Hitbox bigger maker"
+})
+Tab:AddButton({
+	Name = "Hitbox",
+	Callback = function()
+      		local ScreenGui = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local label = Instance.new("TextLabel")
+local Hitbox = 
+Instance.new("TextButton")
+ 
+ScreenGui.Parent = game.CoreGui
+ 
+main.Name = "main"
+main.Parent = ScreenGui
+main.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+main.Position = UDim2.new(0.40427351, 0, 0.34591195, 0)
+main.Size = UDim2.new(0, 100, 0, 100)
+main.Active = true
+main.Draggable = true
+ 
+label.Name = "label"
+label.Parent = main
+label.BackgroundColor3 = Color3.fromRGB(71, 71, 71)
+label.Size = UDim2.new(0, 100, 0, 20)
+label.Font = Enum.Font.SourceSans
+label.Text = "made by em"
+label.TextColor3 = Color3.fromRGB(0, 0, 0)
+label.TextScaled = true
+label.TextSize = 5.000
+label.TextWrapped = true
+ 
+Hitbox.Name = "Hitbox"
+Hitbox.Parent = main
+Hitbox.BackgroundColor3 = Color3.fromRGB(48, 48, 48)
+Hitbox.Position = UDim2.new(0.114285722, 0, 0.372448981, 0)
+Hitbox.Size = UDim2.new(0, 90, 0, 40)
+Hitbox.Font = Enum.Font.SourceSans
+Hitbox.Text = "expand!"
+Hitbox.TextColor3 = Color3.fromRGB(0, 0, 0)
+Hitbox.TextSize = 40.000
+Hitbox.MouseButton1Down:connect(function()
+    _G.HeadSize = 75
+ 
+    _G.Disabled = true
+ 
+ 
+game:GetService('RunService').RenderStepped:connect(function()
+        if _G.Disabled then
+            for i,v in next, game:GetService('Players'):GetPlayers() do
+                if v.Name ~= game:GetService('Players').LocalPlayer.Name then
+                    pcall(function()
+                        v.Character.HumanoidRootPart.Size = Vector3.new(_G.HeadSize,_G.HeadSize,_G.HeadSize)
+                        v.Character.HumanoidRootPart.Transparency = 1
+                        v.Character.HumanoidRootPart.BrickColor = BrickColor.new("Really black")
+                        v.Character.HumanoidRootPart.Material = "Neon"
+                        v.Character.HumanoidRootPart.CanCollide = false
+                    end)
+                end
+            end
+        end
+    end)
+end)
+  	end    
+})
+local Tab = Window:MakeTab({
+	Name = "Da Hood?! (ew)",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Juju.lol"
+})
+Tab:AddButton({
+	Name = "Juju",
+	Callback = function()
+      		script_key="keZWppEWziuNfFPRwlXVRZvgfqSjEfhn";
+loadstring(game:HttpGet("https://juju.lol/loader.lua"))()
+  	end    
+})
+local Section = Tab:AddSection({
+	Name = "Celex"
+})
+Tab:AddButton({
+	Name = "Celex",
+	Callback = function()
+      		print("Go buy it u fat nigger")
+  	end    
+})
+--end of .da hood.
+local Tab = Window:MakeTab({
+	Name = "Arsonal?!?!",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+local Section = Tab:AddSection({
+	Name = "Op script"
+})
+Tab:AddButton({
+	Name = "The most op script ever",
+	Callback = function()
+      		loadstring(game:HttpGet("https://pastebin.com/raw/14xXHZQW"))()
+  	end    
+})
+-- end of .arsonal?!?!?.
+local Tab = Window:MakeTab({
+	Name = "Misc",
+	Icon = "rbxassetid://4483345998",
+	PremiumOnly = false
+})
+Tab:AddButton({
+	Name = "BoyKisser mode?!?!?!?!?",
+	Callback = function()
+      		print("Ok faggy")
+  	end    
+})
+Tab:AddBind({
+	Name = "Keybind your buttplug",
+	Default = Enum.KeyCode.E,
+	Hold = false,
+	Callback = function()
+		print("press")
+	end    
+})
+Tab:AddSlider({
+	Name = "How many can you take in the ass at onese??",
+	Min = 0,
+	Max = 20,
+	Default = 5,
+	Color = Color3.fromRGB(255,255,255),
+	Increment = 1,
+	ValueName = "Men",
+	Callback = function(Value)
+		print(Value)
+	end    
+})
